@@ -6,7 +6,7 @@
 
 void uart_init(void);
 void send_char(char ch);
-
+void send_string(char* str);
 
 
 #endif
