@@ -1,3 +1,5 @@
+**Note : You can use the header and source files for UART and GPIO found under the 4x4_Keypad directory.**
+
 # Password Entry Application
 
 **This application allows password entry using a keypad and displays the password in the terminal. The user enters a 4-digit password, and each character is hidden by an asterisk (*). After entering the password, the user can press the # key to display the entered password.**
