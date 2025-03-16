@@ -29,3 +29,11 @@ void send_char(char c)
 	while (!(USART2->SR & (1U << 7)));		// is TX empty?
 	USART2->DR = c; // write value
 }
+
+void send_string(char* str)
+{
+	while (*str) {
+		send_char(*str++);
+	}
+}
+
